@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Curriculum Web</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/miestilo2.css"/>
+  
+  <style>
+    #img{
+      display: none;
+    }
+  </style> 
+ 
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Medrano Mariela Griselda</h1>
+  <img src="img/20230328_101552.jpg" width="300px" height="300px">
+  <p>Hola, un gusto!
+    Soy estudiante y tengo 24 años, soy de Tucuman-Argentina y me fascinan los numeros como asi tambien la programacion.
+    Me considero una persona muy comprometida y responsable, se desempeñarme bajo presion como a su vez tengo un nivel alto de tolerancia para adaptarme al trabajo en equipo.</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Datos Personales</h3>
+      <p>DNI:41818004</p>
+      <p>Fecha de Nacimiento: 06/03/1999</p>
+      <p>Estado civil: Soltera</p>
+      <p>Ubicacion: Alderetes, Tucuman - ARGENTINA </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Formacion y experiencia laboral</h3>
+      <p>Universidad Nacional De Tucuman - FACET
+        Licenciatura en Matematicas, cursando</p>
+      <p>Aeropuerto Internacional Benjamin Matienzo
+        Tucuman, Argentina
+        
+        Puesto : Encargada/Atencion al cliente</p>
+      <p>Profesora particular de Matematicas</p>
+      <p>Curso #se programar INTI 
+
+
+       
+        <button id="miBoton" onclick="mostrar();">Ver certificado</button>
+        <div id="img">
+          <button id="miBoton" onclick="ocultar();">Ocultar</button>
+          <img src="img/cert.jpg"  width="400px" height="400px" alt="certificado"  >
+        </div>
+    <script >
+      function mostrar(){
+        document.getElementById("img").style.display = "block";
+      }
+      function ocultar(){
+        document.getElementById("img").style.display = "none";
+      }
+    </script>
+          
+        
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>¿Como contactarme?</h3>        
+      <p>Celular: 3815506045</p>
+      <a href="griseldamedrano1@gmail.com">gmail</a>
+      <br>
+      <br>
+      <a href=" https://www.linkedin.com/in/griselda-mariela-medrano-1aa660265">Perfil de linkedIn</a>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

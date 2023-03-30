@@ -1,0 +1,30 @@
+img{
+    border-radius: 200px;
+}
+
+body{
+    background-color: #ffb3dc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    color:#ffb3dc;
+}
+
+h3{
+    color: #ff3f4f;
+}
+.jumbotron{
+    background-color: #ff3f4f ;
+}
+
+.container{
+    background-color: #ffb3dc;
+}
+@media screen and (max-widht=450px) {
+    
+}
+#img{
+    border-radius: 0%;
+}
